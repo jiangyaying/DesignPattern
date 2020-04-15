@@ -1,0 +1,21 @@
+//
+//  PrefixHeader.pch
+//  Test
+//
+//  Created by jiang on 2020/4/14.
+//  Copyright © 2020 jiang. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+/***************************简单工厂模式****************************/
+#import "OperationFactory.h"
+#import "CashFactory.h"
+#import "CashSuper.h"
+/***************************策略模式****************************/
+#import "CashContext.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */

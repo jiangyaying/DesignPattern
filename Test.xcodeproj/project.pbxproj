@@ -15,6 +15,21 @@
 		30409C3B24431C2600E55731 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30409C3A24431C2600E55731 /* main.m */; };
 		30409C4524431C2600E55731 /* TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30409C4424431C2600E55731 /* TestTests.m */; };
 		30409C5024431C2600E55731 /* TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30409C4F24431C2600E55731 /* TestUITests.m */; };
+		3040A2D32444323A00E55731 /* OperationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3040A2D22444323A00E55731 /* OperationFactory.m */; };
+		3040A2D624443BF000E55731 /* Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3040A2D524443BF000E55731 /* Operation.m */; };
+		3040A2E624443F4E00E55731 /* Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 3040A2E524443F4E00E55731 /* Add.m */; };
+		3040A2E924443F7700E55731 /* Sub.m in Sources */ = {isa = PBXBuildFile; fileRef = 3040A2E824443F7700E55731 /* Sub.m */; };
+		3040A2EC24443F8100E55731 /* Mul.m in Sources */ = {isa = PBXBuildFile; fileRef = 3040A2EB24443F8100E55731 /* Mul.m */; };
+		3040A2EF24443F8F00E55731 /* Div.m in Sources */ = {isa = PBXBuildFile; fileRef = 3040A2EE24443F8F00E55731 /* Div.m */; };
+		3040A2F92445850100E55731 /* CashFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3040A2F82445850100E55731 /* CashFactory.m */; };
+		3040A2FC2445851100E55731 /* CashSuper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3040A2FB2445851100E55731 /* CashSuper.m */; };
+		3040A2FF24458D9700E55731 /* CashNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = 3040A2FE24458D9700E55731 /* CashNormal.m */; };
+		3040A30224458DB000E55731 /* CashRebate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3040A30124458DB000E55731 /* CashRebate.m */; };
+		3040A30524458DC300E55731 /* CashReturn.m in Sources */ = {isa = PBXBuildFile; fileRef = 3040A30424458DC300E55731 /* CashReturn.m */; };
+		3040A3442446956D00E55731 /* 数字加减.png in Resources */ = {isa = PBXBuildFile; fileRef = 3040A3432446956D00E55731 /* 数字加减.png */; };
+		3040A3462446958A00E55731 /* 现金收费.png in Resources */ = {isa = PBXBuildFile; fileRef = 3040A3452446958A00E55731 /* 现金收费.png */; };
+		3040A3492446A7C600E55731 /* 现金收费策略模式.png in Resources */ = {isa = PBXBuildFile; fileRef = 3040A3482446A7C500E55731 /* 现金收费策略模式.png */; };
+		3040A34C2446A88700E55731 /* CashContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 3040A34B2446A88700E55731 /* CashContext.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +66,34 @@
 		30409C4B24431C2600E55731 /* TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30409C4F24431C2600E55731 /* TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestUITests.m; sourceTree = "<group>"; };
 		30409C5124431C2600E55731 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3040A2D12444323A00E55731 /* OperationFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OperationFactory.h; sourceTree = "<group>"; };
+		3040A2D22444323A00E55731 /* OperationFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OperationFactory.m; sourceTree = "<group>"; };
+		3040A2D424443BF000E55731 /* Operation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Operation.h; sourceTree = "<group>"; };
+		3040A2D524443BF000E55731 /* Operation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Operation.m; sourceTree = "<group>"; };
+		3040A2E424443F4E00E55731 /* Add.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Add.h; sourceTree = "<group>"; };
+		3040A2E524443F4E00E55731 /* Add.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Add.m; sourceTree = "<group>"; };
+		3040A2E724443F7700E55731 /* Sub.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sub.h; sourceTree = "<group>"; };
+		3040A2E824443F7700E55731 /* Sub.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sub.m; sourceTree = "<group>"; };
+		3040A2EA24443F8100E55731 /* Mul.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mul.h; sourceTree = "<group>"; };
+		3040A2EB24443F8100E55731 /* Mul.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mul.m; sourceTree = "<group>"; };
+		3040A2ED24443F8F00E55731 /* Div.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Div.h; sourceTree = "<group>"; };
+		3040A2EE24443F8F00E55731 /* Div.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Div.m; sourceTree = "<group>"; };
+		3040A2F62445831C00E55731 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		3040A2F72445850100E55731 /* CashFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CashFactory.h; sourceTree = "<group>"; };
+		3040A2F82445850100E55731 /* CashFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CashFactory.m; sourceTree = "<group>"; };
+		3040A2FA2445851100E55731 /* CashSuper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CashSuper.h; sourceTree = "<group>"; };
+		3040A2FB2445851100E55731 /* CashSuper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CashSuper.m; sourceTree = "<group>"; };
+		3040A2FD24458D9700E55731 /* CashNormal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CashNormal.h; sourceTree = "<group>"; };
+		3040A2FE24458D9700E55731 /* CashNormal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CashNormal.m; sourceTree = "<group>"; };
+		3040A30024458DB000E55731 /* CashRebate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CashRebate.h; sourceTree = "<group>"; };
+		3040A30124458DB000E55731 /* CashRebate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CashRebate.m; sourceTree = "<group>"; };
+		3040A30324458DC300E55731 /* CashReturn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CashReturn.h; sourceTree = "<group>"; };
+		3040A30424458DC300E55731 /* CashReturn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CashReturn.m; sourceTree = "<group>"; };
+		3040A3432446956D00E55731 /* 数字加减.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "数字加减.png"; sourceTree = "<group>"; };
+		3040A3452446958A00E55731 /* 现金收费.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "现金收费.png"; sourceTree = "<group>"; };
+		3040A3482446A7C500E55731 /* 现金收费策略模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "现金收费策略模式.png"; sourceTree = "<group>"; };
+		3040A34A2446A88700E55731 /* CashContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CashContext.h; sourceTree = "<group>"; };
+		3040A34B2446A88700E55731 /* CashContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CashContext.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +144,8 @@
 		30409C2A24431C2400E55731 /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				3040A3472446A79200E55731 /* 策略模式 */,
+				3040A2D02444320400E55731 /* 简单工厂模式 */,
 				30409C2B24431C2400E55731 /* AppDelegate.h */,
 				30409C2C24431C2400E55731 /* AppDelegate.m */,
 				30409C2E24431C2400E55731 /* ViewController.h */,
@@ -110,6 +155,7 @@
 				30409C3624431C2600E55731 /* LaunchScreen.storyboard */,
 				30409C3924431C2600E55731 /* Info.plist */,
 				30409C3A24431C2600E55731 /* main.m */,
+				3040A2F62445831C00E55731 /* PrefixHeader.pch */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -130,6 +176,63 @@
 				30409C5124431C2600E55731 /* Info.plist */,
 			);
 			path = TestUITests;
+			sourceTree = "<group>";
+		};
+		3040A2D02444320400E55731 /* 简单工厂模式 */ = {
+			isa = PBXGroup;
+			children = (
+				3040A2F5244582E700E55731 /* 数字加减 */,
+				3040A2F4244582C100E55731 /* 现金收费 */,
+			);
+			path = "简单工厂模式";
+			sourceTree = "<group>";
+		};
+		3040A2F4244582C100E55731 /* 现金收费 */ = {
+			isa = PBXGroup;
+			children = (
+				3040A3452446958A00E55731 /* 现金收费.png */,
+				3040A2F72445850100E55731 /* CashFactory.h */,
+				3040A2F82445850100E55731 /* CashFactory.m */,
+				3040A2FA2445851100E55731 /* CashSuper.h */,
+				3040A2FB2445851100E55731 /* CashSuper.m */,
+				3040A2FD24458D9700E55731 /* CashNormal.h */,
+				3040A2FE24458D9700E55731 /* CashNormal.m */,
+				3040A30024458DB000E55731 /* CashRebate.h */,
+				3040A30124458DB000E55731 /* CashRebate.m */,
+				3040A30324458DC300E55731 /* CashReturn.h */,
+				3040A30424458DC300E55731 /* CashReturn.m */,
+			);
+			path = "现金收费";
+			sourceTree = "<group>";
+		};
+		3040A2F5244582E700E55731 /* 数字加减 */ = {
+			isa = PBXGroup;
+			children = (
+				3040A3432446956D00E55731 /* 数字加减.png */,
+				3040A2D12444323A00E55731 /* OperationFactory.h */,
+				3040A2D22444323A00E55731 /* OperationFactory.m */,
+				3040A2D424443BF000E55731 /* Operation.h */,
+				3040A2D524443BF000E55731 /* Operation.m */,
+				3040A2E424443F4E00E55731 /* Add.h */,
+				3040A2E524443F4E00E55731 /* Add.m */,
+				3040A2E724443F7700E55731 /* Sub.h */,
+				3040A2E824443F7700E55731 /* Sub.m */,
+				3040A2EA24443F8100E55731 /* Mul.h */,
+				3040A2EB24443F8100E55731 /* Mul.m */,
+				3040A2ED24443F8F00E55731 /* Div.h */,
+				3040A2EE24443F8F00E55731 /* Div.m */,
+			);
+			path = "数字加减";
+			sourceTree = "<group>";
+		};
+		3040A3472446A79200E55731 /* 策略模式 */ = {
+			isa = PBXGroup;
+			children = (
+				3040A3482446A7C500E55731 /* 现金收费策略模式.png */,
+				3040A34A2446A88700E55731 /* CashContext.h */,
+				3040A34B2446A88700E55731 /* CashContext.m */,
+			);
+			path = "策略模式";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,8 +338,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3040A3462446958A00E55731 /* 现金收费.png in Resources */,
 				30409C3824431C2600E55731 /* LaunchScreen.storyboard in Resources */,
+				3040A3442446956D00E55731 /* 数字加减.png in Resources */,
 				30409C3524431C2600E55731 /* Assets.xcassets in Resources */,
+				3040A3492446A7C600E55731 /* 现金收费策略模式.png in Resources */,
 				30409C3324431C2400E55731 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,9 +368,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3040A34C2446A88700E55731 /* CashContext.m in Sources */,
+				3040A2E624443F4E00E55731 /* Add.m in Sources */,
 				30409C3024431C2400E55731 /* ViewController.m in Sources */,
+				3040A2E924443F7700E55731 /* Sub.m in Sources */,
+				3040A2FF24458D9700E55731 /* CashNormal.m in Sources */,
+				3040A2EF24443F8F00E55731 /* Div.m in Sources */,
+				3040A30224458DB000E55731 /* CashRebate.m in Sources */,
+				3040A2EC24443F8100E55731 /* Mul.m in Sources */,
+				3040A2F92445850100E55731 /* CashFactory.m in Sources */,
 				30409C3B24431C2600E55731 /* main.m in Sources */,
+				3040A2D624443BF000E55731 /* Operation.m in Sources */,
 				30409C2D24431C2400E55731 /* AppDelegate.m in Sources */,
+				3040A2D32444323A00E55731 /* OperationFactory.m in Sources */,
+				3040A30524458DC300E55731 /* CashReturn.m in Sources */,
+				3040A2FC2445851100E55731 /* CashSuper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +554,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Test/PrefixHeader.pch";
 				INFOPLIST_FILE = Test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +571,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Test/PrefixHeader.pch";
 				INFOPLIST_FILE = Test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
